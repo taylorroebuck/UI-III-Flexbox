@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: circle;
 }
 blockquote, q {
 	quotes: none;
@@ -206,7 +206,7 @@ footer {
 /* CSS for Services page*/
 
 .servicesContainer {
-	width: 70%;
+	width: 60%;
 }
 
 nav {
@@ -220,14 +220,16 @@ a:link {
 	color: grey;
 }
 
-.logo {
-	margin-bottom: %;
+a:visited {
+	color: grey;
 }
+
 .services-header-img {
 	display: flex;
 	align-content: center;
 	justify-content: space-around;
 	width: 95%;
+	height: vh 40;
 }
 
 .headerImg {
@@ -249,4 +251,71 @@ header p {
 	margin-top: 20px;
 	padding: 0 0 30px 0;
 	border-bottom: 1px solid black;
+	line-height: 3.cm;
+}
+
+.servicesBody {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-right: 5%;
+	border-bottom: 2px solid black;
+	
+}
+
+.servicesBody div {
+	border: 1px solid black;
+	width: 450px;
+	height: 200px;
+	padding: 1%;
+	margin-bottom: 2%;
+	background-color: #F5F5F5;
+	align-content: flex-start;
+	text-align: left;
+}
+
+.button2 {
+	background-color: white;
+	border: 1px solid black;
+	margin: 15px 0 10px 10px;
+	padding: 5px 10px;
+	width: 150px;
+}
+
+.servicesboxOne {
+	align-self: flex-start;
+
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	padding-left: 4%;
+}
+
+.footerParagraph {
+	overflow: auto;
+	position: absolute;
+	left: 30px;
+	width: 400px;
+	text-align: justify;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.services-info-img {
+	position: relative;
+	right: 0px;
+	left: 240px;
+	padding: 10px;
+}
+
+.cR {
+	text-align: center;
+	padding: 5%;
 }
