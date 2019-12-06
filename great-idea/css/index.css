@@ -80,6 +80,7 @@ nav {
 a {
 	margin-top: 1%;
 	margin-bottom: 2%;
+	text-decoration: none;
 }
 
 .innovation {
@@ -203,3 +204,49 @@ footer {
 }
 
 /* CSS for Services page*/
+
+.servicesContainer {
+	width: 70%;
+}
+
+nav {
+	display: flex;
+	align-items: row;
+	justify-content: space-around;
+	color: gray;
+}
+
+a:link {
+	color: grey;
+}
+
+.logo {
+	margin-bottom: %;
+}
+.services-header-img {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	width: 95%;
+}
+
+.headerImg {
+	width: 98%;
+	margin-left: 3%;
+	padding-bottom: 2%;
+}
+
+header {
+	width: 90%;
+	margin-left: 3%;
+}
+
+header h2 {
+	font-size: 22px;
+}
+
+header p {
+	margin-top: 20px;
+	padding: 0 0 30px 0;
+	border-bottom: 1px solid black;
+}
